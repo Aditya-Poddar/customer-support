@@ -1,0 +1,16 @@
+# AWS Configuration
+aws_region: us-east-1
+
+# Knowledge Base Configuration
+kb_generation_parameters:
+  temperature: 0.5
+  top_p: 0.9
+  top_k: 250
+  max_tokens: 3500
+  knowledge_base_id: OA48PHWHXH
+  model_arn: "arn:aws:bedrock:us-east-1:263069514765:inference-profile/us.anthropic.claude-sonnet-4-20250514-v1:0"
+  numberOfResults: 25
+  
+
+# DynamoDB Configuration
+dynamodb_table_name: metadata
